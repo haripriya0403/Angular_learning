@@ -5,10 +5,11 @@ export class AppInfoService {
   constructor() {}
 
   public get title() {
-    return 'DevExtreme App';
+    return 'Angular App';
   }
 
   public get currentYear() {
     return new Date().getFullYear();
   }
+  
 }
